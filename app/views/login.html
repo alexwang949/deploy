@@ -1,0 +1,41 @@
+<html>
+<head>
+	<title>login</title>
+	<link rel="stylesheet" type="text/css" href="css/normalize.css">
+	<link rel="stylesheet" type="text/css" href="css/skeleton.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+<div class ="background">
+</div>
+<div class ="login-all">
+
+<div class ="login">
+	<div class="container">
+		<h5 id="sign-up">SIGN UP</h5>
+		<form method ="POST" action="/users">
+		username<br>
+		<input type ="text" name ="username">
+		<br>password<br>
+			<input type="text" name="password">
+			<br><input type="submit" id ="loginbutton" class ="button-primary">
+		</form>
+
+		<h5 id="sign-in">SIGN IN</h5>
+		<form method="POST" action="/login">
+		username<br>
+			<input type="text" name="username">
+			<br>password<br>
+			<input type="text" name="password">
+			<br><input type="submit" id ="loginbutton" class ="button-primary">
+		</form>
+	</div>
+</div>
+
+</div>
+<div class ="hidden-player">
+<iframe id="ytplayer" type="text/html" width="500px" height="290px"src='http://www.youtube.com/embed/wq9Gu5N42HQ?start=1576&autoplay=1&autohide=1modestbranding=1&autohide=1&showinfo=0&controls=0&autoplay=1frameborder="20"/>'
+</div>
+
+</body>
+</html>
